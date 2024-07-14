@@ -1,0 +1,88 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+   
+}
+.container{
+    display: flex;
+    flex-direction: column;
+   width:700px;
+    border: 1px solid black;
+    margin-top: 150px;
+    border-radius: 15px;
+    background-color: rgb(255, 232, 168);
+}
+h1{
+    text-align: center;
+    font-size: 60px;
+}
+
+
+.for-input{
+    display: flex;
+    flex-direction: row;
+    border:1px solid rgb(68, 0, 26);
+    border-radius: 20px;
+    margin: 10px 20px 10px 20px;
+    background-color: rgb(166, 107, 235);
+}
+
+#inputs{
+    width: 90%;
+    height: 50px;
+    border:none;
+    font-size: 30px;
+    border-radius: 20px;
+    padding-left: 15px;
+}
+::placeholder{
+    color: rgb(255, 100, 11);
+    font-size: 20px;
+}
+.for-input i{
+    font-size: 30px;
+    line-height: 50px;
+    margin: 0 5px 0 10px;
+    color:rgb(255, 255, 255);
+}
+#tasks{
+   text-align: center;
+   font-size: 200px;
+   color: rgb(252, 252, 252);
+   font-weight: 900;
+
+}
+#tasks {
+    list-style-type: none;
+    padding: 0;
+    margin: 20px;
+}
+.task {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(255, 87, 96);
+    border: 1px solid rgb(68, 0, 26);
+    border-radius: 10px;
+    padding: 10px 15px;
+    font-size: 30px;
+    font-weight: 500;
+    margin-bottom: 10px;
+    cursor: pointer;
+
+}
+.task .task-text {
+    flex-grow: 1;
+}
+.task i {
+    margin-left: 10px;
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+
+}
